@@ -1,4 +1,3 @@
-/**
 
 #include <algorithm>
 #include <numeric>
@@ -51,5 +50,3 @@ MSTResult GraphAlgorithms::kruskalMST(const Graph& graph) {
 	result.connected = static_cast<int>(result.edges.size()) == n - 1;
 	return result;
 }
-
-*/
